@@ -1,13 +1,17 @@
-//positive negative
+//print only even number from 1 to 100
 
 #include<stdio.h>
-int main(){
-    int num=4;
+int main()
+{
+    int num=1;
+    while(num<=100)
+    {
+        if(num%2==0)
+        {
+            printf("\n%d",num);
+            
+        }
+        num++;
+    }
 
-    if(num>0){
-        printf("no is positive");
-    }
-    else{
-        printf("no is negative");
-    }
 }
